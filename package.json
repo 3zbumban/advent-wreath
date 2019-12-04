@@ -1,0 +1,16 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "3zbuban <free4allcoding@gmail.comcd>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src/*.js --fix",
+    "deploy": "now ./src/"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "now-config": "^1.2.0"
+  },
+  "dependencies": {}
+}
