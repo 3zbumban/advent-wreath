@@ -21,6 +21,13 @@ h1 {
   height: auto;
 }
 
+@media screen and (orientation: landscape) {
+    .responsive {
+    max-width: 40%;
+    height: auto;
+  }
+}
+
 .full {
     width: 100%;
     height: 50%;
